@@ -1,4 +1,17 @@
 @Import ../INFO
 
-@Materia Introduccion a los Algoritmos 1, 2007
-@Clase 20/03/2017, 1, "Introduccion a haskell y definicion basica de funciones", clases/clase1/main.hs
+@Materia Introduccion a los Algoritmos 1, 2017, 3
+@Profesor Aracelli Acosta, email
+@Horario Lunes, 14:00, 4
+@Horario Miercoles, 14:00, 4
+
+Parciales:
+  @Parcial 1, 19/04/2017
+  @Parcial 2, 07/06/2017
+
+Clases:
+  @Clase 20/03/2017, 
+	 1, 
+	 "Introduccion a haskell, tipos y definicion basica de funciones",
+	 clases/clase1/main.hs
+

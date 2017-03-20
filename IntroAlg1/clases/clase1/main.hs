@@ -29,3 +29,6 @@ celsiusToFahr x = x*1.8 + 32
 fahrToCelsius x = (x-32)/1.8
 
 haceFrioF x = (fahrToCelsius x) < 8
+
+segundo3 :: (Num) -> Num
+segundo3 x = x !! 1

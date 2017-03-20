@@ -1,5 +1,7 @@
 Definiciones:
 
-@Def Materia(Nombre:String, Año:Num)
+@Def Materia(Nombre:String, Año:Num, Comision:Num)
 @Def Clase(Fecha:Date, NClase:Num, Tema:String, Filename:File)
-
+@Def Profesor(Nombre:String, Email:String)
+@Def Parcial(Numero:Num, Fecha:Date)
+@Def Horario(Dia:String, Hora:Time, Horas:Num)
