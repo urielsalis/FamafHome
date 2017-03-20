@@ -1,0 +1,4 @@
+@Import ../INFO
+
+@Materia Introduccion a los Algoritmos 1, 2007
+@Clase 20/03/2017, 1, "Introduccion a haskell y definicion basica de funciones", clases/clase1/main.hs

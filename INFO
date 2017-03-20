@@ -1,0 +1,5 @@
+Definiciones:
+
+@Def Materia(Nombre:String, Año:Num)
+@Def Clase(Fecha:Date, NClase:Num, Tema:String, Filename:File)
+
