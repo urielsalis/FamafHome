@@ -14,4 +14,8 @@ Clases:
 	 1, 
 	 "Introduccion a haskell, tipos y definicion basica de funciones",
 	 clases/clase1/main.hs
+  @Clase 27/03/2017,
+	 2,
+	 "Funciones recursivas",
+	 clases/clase1/main.hs
 
