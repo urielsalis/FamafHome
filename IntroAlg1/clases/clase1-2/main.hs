@@ -31,23 +31,20 @@ fahrToCelsius x = (x-32)/1.8
 haceFrioF :: Float->Bool
 haceFrioF x = (fahrToCelsius x) < 8
 
-segundo3 (x, y, z) = (x!!1)
+segundo3 (x, y, z) = y
 
 soloPares :: [Int] -> [Int]
 soloPares [] = []
 soloPares (x:xs) | (mod x 2)==0 = x:soloPares xs
                  | (mod x 2)/=0 = soloPares xs
 
-mayoresQue10 :: [Int] -> [Int]
-mayoresQue10 [] = []
-mayoresQue10 (x:xs) | x>10 = x:mayoresQue10 xs
-                    | x<10 = mayoresQue10 xs
-
-
 mayoresQue :: Int -> [Int] -> [Int]
 mayoresQue n [] = []
 mayoresQue n (x:xs) | x>n = x:(mayoresQue n xs)
                     | x<n = (mayoresQue n xs)
+
+mayoresQue10 :: [Int] -> [Int]
+mayoresQue10 x = mayoresQue x 10
 
 sumar1 :: [Int] -> [Int]
 sumar1 [] = []
